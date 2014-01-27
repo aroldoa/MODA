@@ -1,0 +1,252 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+@import url('css/base.css');
+@import url('css/skeleton.css');
+@import url('css/icons.css');
+
+/* Table of Content
+==================================================
+	#Main Styles
+	#Header Styles
+	#Navigation Styles
+	#Page Heading Styles
+	#Page Content Styles
+	#Sidebar Styles
+	#Blog Styles
+	#Shortcode Styles
+	#Footer Styles
+	#WooCommerce Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Main Styles
+================================================== */
+body{background-color: #f7f7f7; font-family: 'Istok Web', sans-serif; font-size: 12px;}
+.band{width: 100%;}
+.inline{display: inline-block;}
+.showcase{}
+.showcase-short{padding-bottom: 10px;}
+.main{background-image: url('images/pre-shadow.png'); background-repeat: repeat-x; background-position: center bottom; padding: 0px 0px 40px 0px;}
+.promoarea{padding-top: 50px;}
+.promoarea-lined{padding: 0px 0px; border: 5px solid #e71546; text-align: center; margin-bottom: 50px; background-image: url('images/patterns/subtle_white_feathers.png'); background-repeat: repeat;}
+.promoarea-lined h1{color: #000; font-family: 'Gudea', sans-serif; font-weight: 400; font-size: 26px; padding: 10px 0px 0px 0px; text-transform: capitalize;}
+.promoarea-wide{padding: 15px 0px; margin: 0px; background-color: #e71546;}
+.promoarea-wide h1{color: #fff; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 20px; padding: 0px 0px; margin: 0px;}
+.promoarea-wide h2{color: #fff; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 18px; line-height:20px; padding: 0px 0px; margin: 15px 0px;}
+.promoarea-callout{background-color: #222222; text-align: center; padding: 0px 0px; margin-top:20px; margin-bottom: 50px; background-image: url('images/patterns/escheresque_ste.png'); background-repeat: repeat;}
+.promoarea-callout h1{color: #fff; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 18px; padding: 20px 0px;}
+.promotion{background-color: #fff; border: 1px solid #e6e6e6; padding: 16px 0px; font-size: 15px; font-weight: lighter;}
+.featuredProducts{padding: 50px 0px 10px 0px; text-align: center;}
+.bestSellers{padding: 50px 0px 20px 0px; text-align: center;}
+.twitbox{background-color: #232323; text-align: center; padding: 65px 0px; background-image: url('images/patterns/navy_blue.png'); background-repeat: repeat;}
+.twitbox h2{margin: 0px 0px 30px 0px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 18px; color: #fff;}
+.twitbox h2 span{border-bottom: 1px solid #fff; padding: 5px 0px;}
+.twitbox p{font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 18px; color: #fff;}
+.twitbox p a{color: #e71546;}
+.twitbox p a:hover{color: #fff;}
+.text-intro{text-align: center; padding-bottom: 40px;}
+.text-intro h1{font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 24px; padding: 30px 0px 20px 0px;}
+.text-intro h1 span{border-bottom: 1px solid #e71546; padding: 10px 0px;}
+.text-intro p{font-size: 18px; color: #000; line-height: 30px;}
+.social a{text-decoration: none;}
+
+/* #Header Styles
+================================================== */
+.upperdeck{height: 50px; background-color: #fff; font-size: 11px; border-top: 3px solid #e71546; }
+.upperdeck-lft{padding: 15px 0px; text-transform: uppercase;}
+.upperdeck-lft strong{color: black;}
+.upperdeck-rgt{float: right;}
+.upperdeck ul{padding: 15px 0px;}
+.upperdeck ul li{display: inline; padding: 15px 0px 0px 10px;}
+.upperdeck ul li img{margin: 0px; padding: 0px 0px 0px 0px; vertical-align:middle;}
+.upperdeck ul li a{text-decoration: none;}
+.upperdeck ul li a:hover{color: #000; text-decoration: none;}
+.upperdeck ul li a span {position: relative;}
+.upperdeck ul li a span:after {content: ''; position: absolute; right: 0; top: 4px; bottom: 4px; width: 1px; background-color: black;}
+.upperdeck ul li a > span:last-child:after {display: none;}
+.header{padding: 0px 0px 0px 0px;}
+.search{float: right;}
+.pageTitlebar{ padding: 0px 0px 0px 0px; margin: 0px; border: 1px solid #e7e7e7; background-color: #fbfbfb;}
+.pageTitlebar h1{font-family: 'Oxygen', sans-serif; font-weight: 300;font-size: 20px; margin: 0px; padding: 0px; line-height: 42px;}
+
+/* #Navigation Styles
+================================================== */
+.nav{float: right;}
+ul#main-nav{margin: 0px; padding: 0px;}
+ul#main-nav li{display: inline; padding: 0px 0px 0px 30px; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 13px;}
+ul#main-nav li a{text-decoration: none; color: #000;}
+ul#main-nav li a:hover{}
+.breadcrumbs{padding: 10px 0px 30px 0px; margin-top:  }
+.breadcrumbs a{text-decoration: none; color: #e71546; padding: 0px 0px; margin-left: 0px; }
+
+/* #Page Heading Styles
+================================================== */
+h2{margin-bottom: 40px; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 16px;}
+h3{margin-bottom: 30px; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 14px;}
+.spb_heading {line-height: 5px; border-bottom: 1px solid #222;}
+.spb_heading span{background-color: #f7f7f7; padding: 10px 10px;}
+.pre_heading {line-height: 5px; border-bottom: 1px solid #222; font-size: 14px;}
+.pre_heading span{background-color: #fff; padding: 10px 10px 10px 0px;}
+.centered{text-align: center;}
+.noleftspace{padding-left: 0px !important; margin-left: 0px !important;}
+.pre_headingCentered{line-height: 5px; border-bottom: 1px solid #222; font-size: 16px;}
+.pre_headingCentered span{background-color: #fff; padding: 10px 10px;}
+h3.articletitle{font-family: 'Oxygen', sans-serif; font-size: 14px; color: #000; margin-bottom:3px;}
+
+
+/* #Page Content Styles
+================================================== */
+.services{padding: 70px 0px;}
+.services a{text-decoration: none;}
+.services a:hover{color: #e71546;}
+.homegrid{ padding:50px 0px;}
+.homegrid .blockFull{float:left; width: 480px; height: 240px; margin: 0px; padding: 0px 0px;}
+.homegrid .blockHalf{float:left; width: 240px; height: 240px; margin: 0px; padding: 0px 0px;}
+.homegrid .blockHalf .space{padding: 0px 15px;}
+.homegrid .tall{ height: 480px;}
+.blockFull.red, .blockHalf.red{background-color: #e71546;}
+.blockFull.black, .blockHalf.black{background-color: #000;}
+.blockFull.gray, .blockHalf.gray{background-color: #eeeeee;}
+.blockFull.blanco, .blockHalf.blanco{background-color: #fff;}
+.homegrid h2.normal{font-family: 'Quattrocento', serif; font-size: 18px; font-weight: 700; color: #000; line-height: 26px; margin-top:80px; margin-bottom:5px;}
+.homegrid h2.white{font-family: 'Quattrocento', serif; font-size: 18px; font-weight: 700; color: #fff; line-height: 26px; margin-top:80px; margin-bottom:5px;}
+.homegrid a{text-decoration: none;}
+.homegrid p.onblack{color: #fff; line-height: 16px;}
+
+/* #Sidebar Styles
+================================================== */
+.widget{margin-bottom: 40px;}
+
+/* #Blog Styles
+================================================== */
+
+/* #Shortcode Styles
+================================================== */
+.icons{font-size: 28px; padding: 0px 10px;}
+.iconsLarge{font-size: 32px; padding: 0px 10px; color:#e71546;}
+.iconswhite{font-size: 32px; padding: 0px 10px; color:#ffffff !important;}
+.socialicons{font-size: 18px; padding: 0px 5px; color: #fff; text-decoration: none;}
+
+/* #Pre Footer Styles
+================================================== */
+.pre-footer{background-color: #fff; padding: 50px 0px 10px 0px;}
+.post-item-details{border-top: 1px dotted #cfcfcf; padding: 15px 0px;}
+.post-excerpt{padding: 0px 0px 15px 0px; margin: 0px; }
+.post-date{font-size: 13px; color: #686868;}
+
+
+
+
+/* #Footer Styles
+================================================== */
+.footer{background-color: #e71546; min-height: 250px; padding: 40px 0px;}
+.footer h4{line-height: 5px; margin-bottom: 40px; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 14px; color: #fff; text-align: center;}
+.footer h4.spb_heading{border-bottom: 1px solid #ff416e;}
+.footer h4.spb_heading span{background-color: #e71546; padding:10px;}
+.footer p{color: #fff; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 12px;}
+ul#footer-menu{width: 100%;}
+ul#footer-menu li{display: block; font-family: 'Merriweather Sans', sans-serif; font-weight: 300; font-size: 12px; padding: 8px 0px; margin: 0px; border-bottom: 1px solid #ff416e;}
+ul#footer-menu li a{color: #fff; text-decoration: none;}
+ul#footer-menu li:last-child{border: none;}
+.copyright{background-color: #b1002a; font-family: sans-serif; font-size: 11px; color: #fff; padding: 15px 0px;}
+
+/* #WooCommerce Styles
+================================================== */
+ul.products{display: inline-block; margin: 0px; padding: 0px;}
+ul li.product{ display:inline-block; background-color: white; padding: 0px 0px 10px 0px; width: 220px; margin-bottom: 40px;}
+.product-image{}
+.product-details{text-align: center;}
+.product-details h3{font-size: 14px; margin-bottom: 0px; font-family: 'Oxygen', sans-serif;}
+.product-details h3 a{text-decoration: none;}
+.product-details span.amount{font-size: 13px; font-weight: bold; font-family: 'Oxygen', sans-serif;}
+
+ul.mini-list{display: inline-block;}
+ul li.mini-list-item{display: inline-block; padding: 0px 0px 10px 0px; margin: 0px; }
+ul li.mini-list-item figure{width: 55px; float: left; padding: 0px 0px 0px 0px;}
+ul li.mini-list-item h3{float:left; font-size: 13px; font-weight: 400; padding: 0px 15px 0px 15px;}
+ul li.mini-list-item h3 a{text-decoration: none;}
+ul li.mini-list-item span{}
+ul li.mini-list-item span.amount{float:left; margin: 0px; padding: 0px 15px; font-size: 11px;}
+
+/* Pre Shop Information */
+.woocommerce-count-wrap{}
+.woocommerce-result-count{margin-bottom: 0px; padding: 0px;}
+.show-products-link{color:#e71546;}
+.woocommerce-ordering select{ border:none; -webkit-appearance: none; line-height: 30px; font-family: 'Istok Web', sans-serif; font-size: 12px; padding: 0px 0px 0px 15px; background: url('images/arrow_carrot-up.png') no-repeat right #fff;}
+.woocommerce-pre-wrap{padding: 0px 0px; margin-bottom:30px; border-bottom: 1px solid #e6e6e6;}
+
+/* Product Detail */
+.product-detail{}
+.product-detail .price{font-size: 28px; font-family: 'Oxygen', sans-serif; font-weight: 300; color:#000; line-height: 38px; padding: 0px 0px 10px 0px;}
+.product-detail .customer-rating{color:#e71546; padding: 0px 0px 10px 0px;}
+.product-detail .customer-rating span{padding: 0px 5px 0px 0px;}
+.product-detail .description{padding: 0px 0px 15px 0px;}
+.product-detail .category{ color: #000;}
+.product-detail .category a{text-decoration: none; padding: 0px 1px;}
+.product-detail .category a:hover{color:#e71546; }
+.product-detail .tags{color: #000;}
+.product-detail .tags a{ text-decoration: none; padding: 0px 1px}
+.product-detail .tags a:hover{color:#e71546; text-decoration: none;}
+.product-detail .socialshare{border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; margin-top:30px; padding: 3px 0px; color: #000;}
+.product-detail .socialshare span.socialicons{ color: #c4c4c4; text-decoration: none; font-size: 16px; line-height: 30px;}
+.product-detail .socialshare a{text-decoration: none;}
+.product-detail .socialshare a span:hover{text-decoration: none; color:#e71546;}
+
+/* Shopping Cart Page */
+.woocommerce-cartpage{}
+table.shop_table {width: 100%; border: none;}
+table.shop_table th{border-bottom: 1px solid #e9e9e9; border-top: 1px solid #e9e9e9; text-align: left; padding: 5px 0px;}
+table.shop_table tr{padding: 10px; border: none !important;}
+table.shop_table td{padding: 10px;}
+.cartpage h3{margin-bottom: 0px; padding: 0px;}
+
+/* Checkout Page */
+.woocommerce-checout{}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+	.upperdeck-rgt{display: none;}
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
